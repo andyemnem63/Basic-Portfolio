@@ -221,26 +221,14 @@ body{
 
 /*----------------Portfolio-----------*/
 .containerPortfolio{
-	height: 700px;
+	height: 900px;
 	min-height: 100%;
 	margin-bottom: -30px;
 }
-.mainPortfolio{
-	width:650px;
-	height: 450px;
-	background-color: #ffffff;
-	border: 2px solid #cccccc;
-}
 
-.main{
-	float: left;
-	margin: 170px 0 0 200px;
-}
 .mainPortfolio h1{
 	margin-left: 40px;
 	margin-top: 10px;
-}
-.mainPortFolio h1{
 	width: 80%;
 	padding-bottom: 30px;
 	color: #4aaaa5;
@@ -250,17 +238,74 @@ body{
 	border-color: #cccccc;
 	border-radius: 2px;
 }
-.containerPortfolio{
-	height: 800px;
-	min-height: 100%;
-	margin-bottom: -30px;
-}
+
 .mainPortfolio{
-	width:650px;
-	height: 550px;
+	width:615px;
+	height: 650px;
 	background-color: #ffffff;
 	border: 2px solid #cccccc;
+	overflow: hidden;
+	float: left;
+	margin: 170px 0 0 200px;
 }
+.mainPortfolio .mainLeft{ 
+	float:left;
+	height:80%;
+	width:50%;
+	margin:20px 0 0 0;
+ }
+ .mainPortfolio .mainRight{ 
+	float:right;
+	height:80%;
+	width:50%;
+	margin:20px 0 0 0;
+
+ }
+ .mainLeft .mainProj1{
+ 	height: 130px;
+ 	width: 200px;
+ 	margin:0 auto;
+ 	overflow: hidden;
+ }
+
+ .mainLeft .mainProj2{
+ 	height: 130px;
+ 	width: 200px;
+ 	margin:50px auto 0 auto;
+ 	overflow: hidden;
+ }
+ .mainLeft .mainProj3{
+ 	height: 130px;
+ 	width: 200px;
+ 	margin:50px auto 0 auto;
+ 	overflow: hidden;
+ }
+  .mainRight .mainProj4{
+ 	height: 130px;
+ 	width: 200px;
+ 	margin:0 auto 0 auto;
+ 	overflow: hidden;
+ }
+
+ .mainRight .mainProj5{
+ 	height: 130px;
+ 	width: 200px;
+ 	margin:50px auto 0 auto;
+ 	overflow: hidden;
+ }
+
+ .imgBar{
+ 	width: 200px;
+ 	height: 50px;
+ 	background-color: #4aaaa5;
+ 	position: absolute;
+ 	overflow: hidden;
+ 	margin-top: 70px;
+ 	text-align: center;
+ 	color: white;
+ }
+
+
 /*---------------Footer---------------*/
 .footer{
 	width: 100%;
