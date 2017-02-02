@@ -2,7 +2,7 @@
 body{
 	width: 960px;
 	min-width: 100%;
-	background-image: url("../images/ravenna.png");
+	background-image: url("../images/fabric_plaid.png");
 	margin:0;
 }
 .font{
@@ -164,8 +164,9 @@ body{
 	margin-right: 10px;
 }
 .main p1{
-	margin-top: 13px;
+	margin-top: 5px;
 	display: inline-block;
+	line-height: 30px;
 }
 
 /*------------------------------------*/
